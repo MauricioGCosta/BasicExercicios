@@ -57,7 +57,7 @@ def front_x(words):
 # Hint: use a custom key= function to extract the last element form each tuple.
 def sort_last(tuples):
     indice = 0
-    resultadoLista = []
+    resultadoLista = [] 
     for tupla in tuples:
         if indice < tupla[-1]:
             resultadoLista.insert(1, tupla)
